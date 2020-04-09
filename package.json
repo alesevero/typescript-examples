@@ -1,0 +1,19 @@
+{
+  "name": "typescript-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alexandregsjr/typescript-examples.git",
+  "author": "Alexandre Severo <alexandre.severo@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.5",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "tsc && nodemon dist/index.js"
+  }
+}
